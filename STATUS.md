@@ -1,21 +1,18 @@
 # Status
 
-## Current state
+## Current
+- Repository initialized.
+- Production preregistration v2 frozen.
+- Simulator implemented.
+- Production run: 20 seeds.
+- Preliminary result: 15/20 run-level PASS; 5/20 FAIL.
+- Connectivity criterion passed in all 20 runs.
 
-- Repository: initialized.
-- Experiment ID: Ω-PLASMA-001.
-- Preregistration: written.
-- Model specification: written.
-- Synthetic runs: NOT STARTED.
-- Results: NONE.
-- PASS/FAIL: UNDETERMINED.
+## Provenance
+The earlier exploratory run is not counted as confirmatory evidence. It is retained separately in the experiment history.
 
-## Evidence discipline
-
-No result is accepted from visual inspection alone.
-No parameter is changed after observing an outcome without opening a new preregistered version.
-All failures are retained.
-
-## Next execution step
-
-Implement the frozen model, validate numerical stability, then run matched baseline/intervention experiments across independent seeds.
+## Next
+1. Re-run the committed simulator from the repository and compare hashes/results.
+2. Add matched no-deletion baseline results.
+3. Inspect all five failure cases.
+4. Only after reproducibility and controls, issue the final RESULT/DECISION.
